@@ -11,7 +11,7 @@ export function NotFound({ children }: { children?: any }) {
           onClick={() => window.history.back()}
           className="bg-emerald-500 text-white px-2 py-1 rounded-sm uppercase font-black text-sm"
         >
-          Go back
+          Go back to the previous page
         </button>
         <Link
           to="/"
