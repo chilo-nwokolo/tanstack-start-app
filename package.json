@@ -7,7 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node dist/server/server.js"
+    "start": "npx http-server ./dist"
   },
   "dependencies": {
     "@auth/core": "^0.41.1",
