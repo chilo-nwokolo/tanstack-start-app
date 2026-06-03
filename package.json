@@ -7,7 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "pnpm exec srvx --prod -s dist/client dist/server/server.js --host 0.0.0.0 --port $PORT"
+    "start": "node dist/server/server.js"
   },
   "dependencies": {
     "@auth/core": "^0.41.1",
@@ -16,7 +16,6 @@
     "@tanstack/react-start": "^1.168.19",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "srvx": "^0.11.16",
     "start-authjs": "^1.0.0",
     "tailwind-merge": "^3.6.0"
   },
